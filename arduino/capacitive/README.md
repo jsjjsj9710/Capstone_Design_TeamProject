@@ -1,10 +1,9 @@
 # Capstone_Design_TeamProject/arduino/capacitive
-   * 이 리드미 파일은 터치 센서를 설치하고 실행하는데 도움을 주기 위해 작성되었습니다.
-   * 먼저 [푸시 버튼](https://github.com/golagola2020/hango-arduino/tree/master/arduino/pushButton)과정을 마치고 읽으시길 추천합니다.
-
-   1.준비물  
-   쿠킹 호일(적당한 크기로 8등분), 4.7MΩ 저항 8개, 전선 16개  
-     -저항은 1 MΩ 에서 4.7 MΩ 사이의 어떤 저항이던 사용 가능.  
+   * 이 파일은 터치 센서를 설치하고 실행하기위한 순서를 알려줍니다.
+   
+ 1.준비물  
+   쿠킹 호일 6개, 1MΩ 저항 6개, 전선 12개  
+     -저항은 1 MΩ 에서 4.7 MΩ 사이 저항 사용. 
    
    arduino IDE에서 '라이브러리포함하기'를 통해 CapacitiveSensor.h를 다운로드 받아 놓습니다.
    
@@ -12,22 +11,22 @@
    ```
    #include <Char2Int.h>
    ```
-   불러올 수 있도록 합니다.
+   불러옵니다.
   
    2.터치 센서 설치
    ```c++
    #include <CapacitiveSensor.h>
 
    #define COMMON_PIN      2    // 모든 key에 대한 공통적인'send' pin
-   #define NUM_OF_SAMPLES  10   // 읽어들이는 최소 횟수(숫자가 크면 정확도 up)
-   #define NUM_OF_KEYS     8    // capacitive sensor의 수
+   #define NUM_OF_SAMPLES  10   // 읽어들이는 최소 횟수 (숫자가 클수록 정확도가 올라갑니다)
+   #define NUM_OF_KEYS     6    // capacitive sensor의 수
 
    // 각 터치센서에 키 지정
    #define CS(Y) CapacitiveSensor(2, Y)
 
-   CapacitiveSensor keys[] = {CS(11), CS(10), CS(9), CS(8), CS(6), CS(5), CS(4), CS(3)};;
+   CapacitiveSensor keys[] = {CS(9), CS(7), CS(6), CS(5), CS(4), CS(3)};;
    ```
-   현재 코드에서 사용하는 터치 센서는 총 8개로 각각 3,4,5,6,8,9,10,11핀에 연결되어 있습니다.  
+   현재 코드에서 사용하는 터치 센서는 총 8개로 각각 3,4,5,6,7,9핀에 연결되어 있습니다.  
    모든 터치 센서에 대한 공통적인 전송핀은 2번핀에 연결됩니다.
 
 - 전체적인 구조(X 모양의 부위는 서로 연결되었다는 뜻(납땜))
@@ -41,7 +40,7 @@
 - 터치센서 쿠킹 호일과 연결하는 법
 ![터치센서만들기](https://user-images.githubusercontent.com/67812466/96615124-dd326e00-133b-11eb-84cb-f929c6f1a710.PNG)
    
-   > 쿠킹호일을 3,4,5,6,8,9,10,11번 핀과 연결하는 전선중 하나와 연결된 저항의 다리로 통과시킨다.  
+   > 쿠킹호일을 3,4,5,6,8,9번 핀과 연결하는 전선중 하나와 연결된 저항의 다리로 통과시킨다.  
    > 쿠킹호일과 통과시킨 저항을 밀착시킨다.(밀착되지 않으면 제대로 동작 x)  
    > 쿠킹호일을 절연테이프로 고정한다.    
 
