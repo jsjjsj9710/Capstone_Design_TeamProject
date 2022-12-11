@@ -3,8 +3,8 @@
    * 팀장 전성진, 팀원 윤준영, 김병현으로 구성된 팀 프로젝트입니다.
    * 과제 개발이 완성 될때까지 갱신되는 포트폴리오 입니다. /22.12.12
    
-   ![image](https://user-images.githubusercontent.com/119272401/206913526-dd158bc4-9f01-4fbd-90b9-d0ceffc31b34.png){: width="100" height="100"}
-   ![image](https://user-images.githubusercontent.com/119272401/206913530-69504620-6ac5-4a21-a274-aff0466e477e.png){: width="100" height="100"}
+   ![image](https://user-images.githubusercontent.com/119272401/206913526-dd158bc4-9f01-4fbd-90b9-d0ceffc31b34.png)
+   ![image](https://user-images.githubusercontent.com/119272401/206913530-69504620-6ac5-4a21-a274-aff0466e477e.png)
 
 
    
@@ -33,9 +33,8 @@
 우리 사회에서 시각장애인을 위한 배려는 사소한 부분까지 잘 이루어지고 있지 않다. 교차로의 음향 신호등 또한 턱없이 부족하거나, 길거리의 점자블록이 훼손된 상태로 방치 되어 있거나, 여러 부분 중 우리가 편하게 이용하는 자판기도 시각장애인은 대부분 점자조차 제대로 부착되어 있지 않아, 이용하기에 불편함을 느낀다. 심지어 자판기에 부착 되어 있는 음료와 관련된 점자는 '음료', '탄산', ‘맥주’ 세 가지 점자 정도로만 표기하는 경우가 많다.
 그래서 시각장애인을 위해 보이지 않아도 소리로 들어 위치를 알 수 있는 자판기가 조금 더 실생활에 필요하다고 생각하여 개발하게 되었다.
 
-![image](https://user-images.githubusercontent.com/119272401/206913569-8d6a3cb1-bf88-49aa-ad1a-ff14af4ff0de.png){: width="100" height="100"}
-![image](https://user-images.githubusercontent.com/119272401/206913558-fd34ddf1-e122-4114-920e-a029f8340a1b.png){: width="100" height="100"}
-
+![image](https://user-images.githubusercontent.com/119272401/206913569-8d6a3cb1-bf88-49aa-ad1a-ff14af4ff0de.png)
+![image](https://user-images.githubusercontent.com/119272401/206913558-fd34ddf1-e122-4114-920e-a029f8340a1b.png)
 
 ### 과제의 기술
   * 아두이노 : C++
