@@ -1,4 +1,4 @@
-# Capstone_Design_TeamProject/arduino/capacitive
+# 시각장애인을 위한 자판기/arduino/capacitive
    * 이 파일은 터치 센서를 설치하고 실행하기위한 순서를 알려줍니다.
    
  1.준비물  
