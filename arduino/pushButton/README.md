@@ -1,4 +1,4 @@
-# hango-arduino/arduino/pushButton
+# Capstone_Design_TeamProject/arduino/pushButton
    * 이 리드미 파일은 푸시 버튼을 설치하고 실행하는데 도움을 주기 위해 작성되었습니다.
   
    1. 준비물   
