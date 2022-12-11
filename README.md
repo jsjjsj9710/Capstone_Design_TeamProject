@@ -34,6 +34,7 @@
   * 웹 서버 : Java Script
 
   * 시각장애인을 위한 자판기 개발 구성도
+  * 
    ![image](https://user-images.githubusercontent.com/119272401/206912368-769636bd-99ec-4330-8764-14bf5440be7e.png)
    ![image](https://user-images.githubusercontent.com/119272401/206912455-75915cd4-5e8c-4e24-a38a-3f0d2881ba73.png)
 
