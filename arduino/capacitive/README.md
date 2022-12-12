@@ -57,15 +57,17 @@
    - 터치센서를 누르지 않았을 때(참고)
 ![캡처1](https://user-images.githubusercontent.com/67812466/96619551-449eec80-1341-11eb-98f3-4e6ba00486ea.PNG)  
    - 터치센서를 눌렀을 때 (참고)  
-![캡처2](https://user-images.githubusercontent.com/67812466/96619556-47014680-1341-11eb-9586-329a28cd106f.PNG)  
+![image](https://user-images.githubusercontent.com/119272401/207073568-296b48c4-f051-4b90-8a4e-deeccb899ed0.png)
 
 두가지 상황을 쉽게 볼 수 있습니다.
 
 
-센서 작동 동영상
+  * 센서 작동 동영상
 
 https://youtube.com/shorts/DGQajE899go
 
+
+  * 아직 확인하지 못한 단계
 
 
    4.Uart통신 준비
