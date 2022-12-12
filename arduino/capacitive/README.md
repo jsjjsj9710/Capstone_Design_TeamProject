@@ -60,7 +60,7 @@
 
    4.Uart통신 준비
 
-   [pushButton의 README.md](https://github.com/golagola2020/hango-arduino/tree/master/arduino/pushButton)를 참고해 설치해놓았던
+   pushButton의 README.md를 참고해 설치해놓았던
    푸시 버튼과 RX,TX핀으로 통신을 할 것입니다.  
     pushButton의 아두이노의 TX핀과 Capacitive의 아두이노의 RX핀을 연결할 준비를 합니다. (아직 연결하지마세요)
 
