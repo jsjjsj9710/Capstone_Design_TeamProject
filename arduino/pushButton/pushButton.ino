@@ -1,6 +1,6 @@
 #define PIN_COUNT 6
 
-const int PIN[PIN_COUNT] = {2, 3, 4, 5, 6, 7, }; //푸시버튼
+const int PIN[PIN_COUNT] = {2, 3, 4, 5, 6, 7}; //푸시버튼
 
 int sold_position;     
 int btn[6];            
