@@ -67,7 +67,9 @@
 https://youtube.com/shorts/DGQajE899go
 
 
+
   * 아직 확인하지 못한 단계
+
 
 
    4.Uart통신 준비
