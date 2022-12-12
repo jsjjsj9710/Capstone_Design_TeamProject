@@ -8,7 +8,6 @@
    ![image](https://user-images.githubusercontent.com/119272401/206913526-dd158bc4-9f01-4fbd-90b9-d0ceffc31b34.png)
    ![image](https://user-images.githubusercontent.com/119272401/206913530-69504620-6ac5-4a21-a274-aff0466e477e.png)
 
-<br/> <br/> <br/> <br/> <br/> 
    
 # 팀원 명단
   * 남서울대학교 지능정보통신공학과
@@ -17,26 +16,26 @@
 2. 윤준영 18100154
 3. 김병현 18100099
 ```
-<br/> <br/> <br/> <br/> <br/> <br/> 
+
 # 역할
 ```
 1. 전성진 - 웹서버 & 자판기 제작 & 설계
 2. 윤준영 - 아두이노 & 중간레포트 작성
 3. 김병현 - 라즈베리 파이 & 웹 서버
 ```
-<br/> <br/> <br/> <br/> <br/> 
+
 # 프로젝트 기간
 ```
   * 2022 년 8 월 29 일 ~ 2022 년 12 월 5 일 (3 개월)
   ```
-<br/> <br/> <br/> <br/> <br/> 
+
 # 과제 수행비
 ```
 1. 지원금 - 200,000
 2. 사용 금액 - 36,000
 3. 잔액 - 164,000
 ```
-<br/> <br/> <br/> <br/> <br/> 
+
 # 개요
 ### 과제 개요 및 필요성
 [캡스톤] IT종합설계기초 수업의 과제를 개발하기에 앞서, 우리 조는 ‘시각장애인을 위한 자판기’라는 주제로 선정했다.
@@ -50,14 +49,14 @@
   * [아두이노](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/arduino) : C++
   * [라즈베리 파이](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/raspberrypi) : Python
   * [웹 서버] : Java Script
-  <br/> <br/> <br/> <br/> <br/> 
+
   * 시각장애인을 위한 자판기 개발 구성도
   
    ![image](https://user-images.githubusercontent.com/119272401/206912368-769636bd-99ec-4330-8764-14bf5440be7e.png)
    ![image](https://user-images.githubusercontent.com/119272401/206912455-75915cd4-5e8c-4e24-a38a-3f0d2881ba73.png)
 <br/> <br/> <br/> <br/> <br/> 
 # Capstone_Design 과제개발 내용
-<br/> <br/> <br/> <br/> <br/> 
+
 ### 과제 내용
 개발 구성안은 하드웨어와, 웹&서버 두 가지로 구성하여 설계하였다.
 하드웨어 부분으로는 아두이노를 이용하여 행동(모션)을 인식하여 손을 인식하고. 인식한 감지 데이터를 웹서버를 통해 라즈베리 파이로 전송하여 데이터 가공 후에 스피커로 음성을 송출하는 개념이다.
@@ -79,19 +78,20 @@
   
   ![image](https://user-images.githubusercontent.com/119272401/206912589-7df0b094-84ed-494e-9b9a-8fb8df45963f.png)
   ![image](https://user-images.githubusercontent.com/119272401/206912591-686f2dab-b384-445f-ba82-0d8690ce15a5.png)
-<br/> <br/> <br/> <br/> <br/> 
+
+
 # Capstone_Design 과제개발 결과 및 활용방안
 1. 작품 구성도 중, 하드웨어를 완성하였고, 웹서버와 클라이언트는 개발 단계에 있다.
 이 자판기는 아두이노와 라즈베리 파이 두가지를 이용하여 개발된다. 현재 하드웨어 부분은 각각 완성하였고, 웹과 서버를 구축하여 연결하여 ‘인식’ 하여 ‘음성 송출’하는 시각장애인을 위한 자판기이다.
 
 2. 이 자판기는 음료 자판기 뿐만아니라, 여러 종류의 간식 / 채소나 물건 / 도서 등 음성으로 알려줄 수 있기때문에 여러 방향으로 이용이 가능하다. 또한 언어적으로도 추가만 한다면 여러 나라별 언어로 음성 송출이 가능하다.
 특히, 자판기 관련 웹을 개발한다면 전국에 이 자판기가 여러대 있다는 가정하에, 자판기의 위치도 지정이 가능해 자판기의 위치를 본인이 직접찾아 이용할 수 있다.
-<br/> <br/> <br/> <br/> <br/> 
+
+
 # 참고한 웹 사이트, 문헌, 팀프로젝트
   * 한고 YouTube - https://youtu.be/D2CXURqW8qs
   * 한고 GitHub - https://github.com/golagola2020
 
-<br/> <br/> <br/> <br/> <br/> 
 
 # 캡스톤디자인 과제개발비 정산보고서
   * (가공비) 자판기 모형
