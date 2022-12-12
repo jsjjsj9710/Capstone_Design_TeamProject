@@ -46,7 +46,7 @@
 ![image](https://user-images.githubusercontent.com/119272401/206913558-fd34ddf1-e122-4114-920e-a029f8340a1b.png)
 
 ### 과제의 기술
-  * [아두이노](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/raspberrypi) : C++
+  * [아두이노](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/arduino) : C++
   * [라즈베리 파이](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/raspberrypi) : Python
   * [웹 서버] : Java Script
   //
