@@ -1,6 +1,6 @@
 # 시각장애인을 위한 자판기/arduino/arduino/capacitive
    * 이 리드미 파일은 터치 센서를 설치하고 실행하는데 도움을 주기 위해 작성되었습니다.
-   * 먼저 [푸시 버튼](https://github.com/golagola2020/hango-arduino/tree/master/arduino/pushButton)과정을 마치고 읽으시길 추천합니다.
+   * 먼저 푸시 버튼 과정을 마치고 읽으시길 추천합니다.
 
    1.준비물  
    쿠킹 호일(적당한 크기로 8등분), 4.7MΩ 저항 8개, 전선 16개  
@@ -61,7 +61,7 @@
 
    4.Uart통신 준비
 
-   [pushButton의 README.md](https://github.com/golagola2020/hango-arduino/tree/master/arduino/pushButton)를 참고해 설치해놓았던
+   pushButton의 README.md 를 참고해 설치해놓았던
    푸시 버튼과 RX,TX핀으로 통신을 할 것입니다.  
     pushButton의 아두이노의 TX핀과 Capacitive의 아두이노의 RX핀을 연결할 준비를 합니다. (아직 연결하지마세요)
 
