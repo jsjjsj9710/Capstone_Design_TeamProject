@@ -105,18 +105,3 @@ $ source bin/activate
          $ python3 main.py
          ```
    
-## 배포(발행)
-
-* https://github.com/golagola2020/hango-raspberry-pi 에 push 권한이 있다면 :  
-   ```
-   $ git checkout -b 'features to develop'
-   $ git commit -m '[features to develop] message...'
-   $ git push origin 'features to develop'
-   ```
-
-* https://github.com/golagola2020/hango-raspberry-pi 에 push 권한이 없다면 :  
-   1. 포크 동기화 [Syncing a fork](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
-   2. Pull Request 보내기 [Creating a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
-   
-
-
