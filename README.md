@@ -47,9 +47,9 @@
 
 ### 과제의 기술
 ```
-  * 아두이노 : C++
-  * 라즈베리 파이 : Python
-  * 웹 서버 : Java Script
+  * [아두이노](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/raspberrypi) : C++
+  * [라즈베리 파이](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/raspberrypi) : Python
+  * [웹 서버] : Java Script
   ```
   *
   * 시각장애인을 위한 자판기 개발 구성도
