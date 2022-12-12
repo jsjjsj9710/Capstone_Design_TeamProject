@@ -1,8 +1,3 @@
-/*
- * hango-arduino
- * Copyright (c) 2020 Golagola
- * MIT License
-*/
 
 #include "Arduino.h" 
 #include "Char2Int.h"
