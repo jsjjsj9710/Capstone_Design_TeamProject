@@ -3,6 +3,7 @@
    2. 어떤 음료수인지 알수 있도록 손을 대면 센싱하는 터치 센서 (쿠킹 호일으로 구현)
    
    * 자판기 외형
+   
    ![image](https://user-images.githubusercontent.com/119272401/207074270-7d6e85d2-d061-4794-a2fa-74f2e659be96.png)
 
 
