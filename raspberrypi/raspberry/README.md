@@ -1,9 +1,4 @@
-# hango-raspberry 
-> 주의 : [GitHub Pages](https://pages.github.com/)에 대해서 충분히 숙지할 것.  
-주의 : [Collaborating with issues and pull requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests)을 정독할 것
-
 ## 시작하기에 앞서 
-[hango-raspberry](https://github.com/golagola2020/hango-client/tree/master/hardware/raspberry) 프로젝트를 실행시키기 위한 도구 및 프로그램 설치
    1. 라즈베리파이 업데이트 및 업그레이드
 ```
 $ sudo apt-get update
