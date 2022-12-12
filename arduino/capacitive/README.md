@@ -37,6 +37,8 @@
 
 
 - 납땜 방식
+
+
 ![image](https://user-images.githubusercontent.com/117191814/207071861-2b922f8e-4ecd-4be3-999e-515aa7e068da.png)
 
 - 터치센서 쿠킹 호일과 연결하는 법
