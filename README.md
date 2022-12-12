@@ -46,12 +46,10 @@
 ![image](https://user-images.githubusercontent.com/119272401/206913558-fd34ddf1-e122-4114-920e-a029f8340a1b.png)
 
 ### 과제의 기술
-```
   * [아두이노](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/raspberrypi) : C++
   * [라즈베리 파이](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/raspberrypi) : Python
   * [웹 서버] : Java Script
-  ```
-  *
+  //
   * 시각장애인을 위한 자판기 개발 구성도
   
    ![image](https://user-images.githubusercontent.com/119272401/206912368-769636bd-99ec-4330-8764-14bf5440be7e.png)
