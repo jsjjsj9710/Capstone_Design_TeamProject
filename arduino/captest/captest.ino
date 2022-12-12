@@ -1,8 +1,4 @@
 /*
- * hango-arduino
- * Copyright (c) 2020 Golagola
- * MIT License
- * 
  * 이 코드는 capacitive.ino를 하기 전 터치 센서의 작동을 확인하기 위한 코드입니다.
 */
 
