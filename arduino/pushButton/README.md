@@ -25,8 +25,7 @@
    4. 푸쉬버튼 제작 사진 (참고)
 
   5.작동 영상 (참고)
-  
-<imgsrc="https://youtube.com/shorts/gjBW-mBv_to">
+https://youtube.com/shorts/gjBW-mBv_to
 
 
    푸시버튼을 눌렀을 때 1E, 2E, 3E, 4E, 5E, 6E 의 숫자가 나오면 정상 작동 입니다. 
