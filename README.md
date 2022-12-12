@@ -90,7 +90,6 @@
 
 # 참고한 웹 사이트, 문헌, 팀프로젝트
   * 한고 YouTube - https://youtu.be/D2CXURqW8qs
-  * 한고 GitHub - https://github.com/golagola2020
 
 
 # 캡스톤디자인 과제개발비 정산보고서
