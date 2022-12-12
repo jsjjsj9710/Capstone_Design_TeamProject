@@ -26,3 +26,26 @@ $ cd hango-raspberry
 $ source bin/activate
 ```
 
+* https://github.com/golagola2020/hango-raspberry-pi 에 push 권한이 있다면 :  
+   * git fetch or pull or clone
+      ```
+      $ git clone https://github.com/golagola2020/hango-raspberry-pi.git
+      $ cd hango-server
+      ```
+  * https://github.com/golagola2020/hango-raspberry-pi 에 push 권한이 없다면 :  
+   1. https://github.com/golagola2020/hango-raspberry-pi 에서 ```Fork```버튼 클릭하고,
+   2. 포크 저장소 계정(maybe 개인 계정) 선택
+   3. git fetch or pull or clone
+      ```
+      # 포크한 저장소 clone
+      $ git clone https://github.com:YOUR_GITHUB_ACCOUNT/hango-raspberry-pi.git
+      $ cd hango-server
+
+      # hango-server 레포지터리를 upstream으로 리모트 설정
+      $ git remote add upstream https://github.com/golagola2020/hango-raspberry-pi.git
+
+      # 로컬 코드와 hango-server 동기화
+      $ git fetch upstream
+      $ git checkout master
+      $ git merge upstream/master
+      ```
