@@ -11,4 +11,5 @@ Tool의 Serial Moniter를 켜면
 ![image](https://user-images.githubusercontent.com/119272401/207070810-6bd7c55b-e3f9-42f6-989d-35a9d6d79424.png)
 
   * 터치센서가 작동되지 않을때
+  
   전압의 크기가 0~100 사이의 작은 전압 유지
