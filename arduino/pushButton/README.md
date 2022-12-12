@@ -18,4 +18,13 @@
     
    3. pushButton.ino 실행
 
+
+  ![image](https://user-images.githubusercontent.com/117191814/207063715-66d1e96d-70b0-4657-a1be-b328b38e0f98.png)
+
+
+  * 4. 푸쉬버튼 제작 사진 (참고)
+
+
+
+
    푸시버튼을 눌렀을 때 1E, 2E, 3E, 4E, 5E, 6E 의 숫자가 나오면 정상 작동 입니다. 
