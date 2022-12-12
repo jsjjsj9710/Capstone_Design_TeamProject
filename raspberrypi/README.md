@@ -17,3 +17,14 @@ $ sudo apt-get install python-pip
 ```
 $ sudo pip install virtualenv
 ```
+
+# 설치
+
+### 가상환경 만들기
+(패키지 충돌을 방지하기 위해 가상환경에 설치하는 것을 권장합니다.)
+```
+$ virtualenv hango-raspberry
+$ cd hango-raspberry
+$ source bin/activate
+```
+
