@@ -49,7 +49,7 @@
   * [아두이노](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/arduino) : C++
   * [라즈베리 파이](https://github.com/jsj5100/Capstone_Design_TeamProject/tree/main/raspberrypi) : Python
   * [웹 서버] : Java Script
-
+<br/> <br/> <br/> <br/> <br/> 
   * 시각장애인을 위한 자판기 개발 구성도
   
    ![image](https://user-images.githubusercontent.com/119272401/206912368-769636bd-99ec-4330-8764-14bf5440be7e.png)
