@@ -22,7 +22,7 @@
   ![image](https://user-images.githubusercontent.com/117191814/207063715-66d1e96d-70b0-4657-a1be-b328b38e0f98.png)
 
 
-  * 4. 푸쉬버튼 제작 사진 (참고)
+   4. 푸쉬버튼 제작 사진 (참고)
 
 
 
