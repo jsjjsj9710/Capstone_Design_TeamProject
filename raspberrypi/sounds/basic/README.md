@@ -1,3 +1,3 @@
-## hango-raspberry-pi
+## 시각장애인을 위한 자판기/raspberrpi/sounds
 해당 basic 폴더는 사운드 저장용 폴더입니다.
 어떤 센싱도 되고 있지 않은 무인식 상태일 때의 인사말 사운드를 저장합니다.
