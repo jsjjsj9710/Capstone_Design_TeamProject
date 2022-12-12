@@ -57,26 +57,3 @@
 ![캡처2](https://user-images.githubusercontent.com/67812466/96619556-47014680-1341-11eb-9586-329a28cd106f.PNG)  
 
 두가지 상황을 쉽게 볼 수 있습니다.
-
-   4.Uart통신 준비
-
-   pushButton의 README.md를 참고해 설치해놓았던
-   푸시 버튼과 RX,TX핀으로 통신을 할 것입니다.  
-    pushButton의 아두이노의 TX핀과 Capacitive의 아두이노의 RX핀을 연결할 준비를 합니다. (아직 연결하지마세요)
-
-   5.capacitive.ino 실행 
-   
-   capacitive.ino와 pushButton.ino가 모두 정상적으로 실행되었다면 이제 아두이노의 TX핀과 Capacitive의 아두이노의 RX핀을 연결합니다.
-
-   시리얼 모니터에 출력이 아래의 방식처럼 나오게 됩니다.
-   ```c++
-   success 1
-   duplicate 0
-   sensed_position -1
-   sold_position -1
-   ```
- 
-   푸시 버튼을 눌렀을 때는 sold_position이 변하고, 터치 센서를 눌렀을 때는 sensed_position이 변하게 됩니다.  
-   두 변수 모두 -1 ~ 7 사이의 값으로 나옵니다.
-
-   각 버튼을 눌러보며 정상 작동하는지 확인해주세요. 
