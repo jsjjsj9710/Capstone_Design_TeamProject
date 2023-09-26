@@ -86,5 +86,5 @@ void loop()
   overlap = 0;
   sensed_position = -1;
 
-  delay(500);                            
+  delay(5000);                            
 }
