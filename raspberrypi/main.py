@@ -1,89 +1,66 @@
-#include <Char2Int.h>
-#include <CapacitiveSensor.h>
+import pygame
+import serial
 
+# Arduino와 연결된 시리얼 포트 경로를 확인하세요.
+# 예: "/dev/ttyACM0", "/dev/ttyUSB0"
+push_button_port = "/dev/ttyACM0"
+ultrasonic_port = "/dev/ttyACM1"
 
-#define COMMON_PIN      2    
-#define NUM_OF_SAMPLES  10   
-#define NUM_OF_KEYS     6   
+# 시리얼 통신 속도와 타임아웃 설정
+push_button_ser = serial.Serial(push_button_port, 9600, timeout=1)
+ultrasonic_ser = serial.Serial(ultrasonic_port, 9600, timeout=1)
 
-#define CS(Y) CapacitiveSensor(2, Y) //각 터치 센서에의 키 지정 
+# pygame 초기화 및 오디오 초기화
+pygame.init()
+pygame.mixer.init(buffer=1024)  # 버퍼 크기 조정
 
-CapacitiveSensor keys[] = { CS(3), CS(4), CS(5), CS(6), CS(8), CS(9)};
+# 각각의 오디오 파일 경로와 오디오 객체 생성
+sound_files = ["/home/rlaqudgus/Desktop/sound/success_1.wav",
+               "/home/rlaqudgus/Desktop/sound/success_2.wav",
+               "/home/rlaqudgus/Desktop/sound/success_3.wav",
+               "/home/rlaqudgus/Desktop/sound/success_4.wav",
+               "/home/rlaqudgus/Desktop/sound/success_5.wav",
+               "/home/rlaqudgus/Desktop/sound/success_6.wav",
+               "/home/rlaqudgus/Desktop/sound/99.wav"]
+sounds = [pygame.mixer.Sound(file) for file in sound_files]
 
-bool hand_exist = false;     
+# 오디오 재생 함수
+def play_sound(index):
+    channel = pygame.mixer.Channel(0)
+    if not channel.get_busy():
+        channel.play(sounds[index])
 
-int sold_position;           
-int sensed_position = -1;       
-char serial_touch[3] = {0}; 
-int overlap=0;               
-int duplicate = 0;           
+# 거리가 20cm 이내인지 확인하는 함수
+def is_within_range(distance):
+    return distance <= 20
 
- 
-void setup()
-{
-  
-  for (int i = 0; i < NUM_OF_KEYS; ++i) {
-    keys[i].set_CS_AutocaL_Millis(0xFFFFFFFF);
-  }
- 
-  Serial.begin(9600);
- 
-}
+# 초음파 센서 인식 여부 플래그
+ultrasonic_detected = False
 
-void loop()
-{
+# 무한 루프를 돌며 시리얼 포트에서 데이터를 받아 처리
+while True:
+    if push_button_ser.in_waiting > 0:
+        line = push_button_ser.readline().decode("utf-8").strip()
+        if line.endswith("_E_"):
+            button_num = line.split("_")[0]
+            button_index = int(button_num) - 1
 
-  for (int i = 0; i < NUM_OF_KEYS; ++i) {
+            # 버튼에 맞는 음성 파일 재생
+            play_sound(button_index)
 
-    
-    if (keys[i].capacitiveSensor(NUM_OF_SAMPLES) > 5000 ) {
-      sensed_position = i;    
-      overlap += 1;
-    } 
-  }
-  if (overlap == 1 || overlap == 0) 
-    duplicate = false;
-  if (overlap > 1) 
-    duplicate = true;
+    # 초음파 센서 아두이노에서 데이터를 받았을 때
+    if ultrasonic_ser.in_waiting > 0:
+        distance_str = ultrasonic_ser.readline().decode("utf-8").strip()
+        distance = ''.join(filter(str.isdigit, distance_str))
+        if distance:
+            distance = int(distance)
+            if is_within_range(distance) and not ultrasonic_detected:
+                # 새로운 오디오 파일 재생 (인덱스 6번에 해당하는 소리)
+                play_sound(6)
+                ultrasonic_detected = True
+            elif not is_within_range(distance) and ultrasonic_detected:
+                ultrasonic_detected = False
 
- 
-  for (int i = 0; i < 3 ; i++) { 
-
-    if (Serial.available()) {                
-      serial_touch[i] = Serial.read();
-
-      if (serial_touch[i] == 'E') {
-        serial_touch[i] = 0;
-        break;
-      }
-    }
-  }
-
-  sold_position = char2int(serial_touch[1]) * 10 + char2int(serial_touch[0]) - 1 ;
-  
-  if (sensed_position >= -1 && sensed_position < NUM_OF_KEYS && sold_position >= -1 && sold_position < NUM_OF_KEYS) { 
-    Serial.print("success ");
-    Serial.println(true);
-    Serial.print("duplicate ");
-    Serial.println(duplicate);
-    Serial.print("sensed_position ");
-    Serial.println(sensed_position);
-    Serial.print("sold_position ");
-    Serial.println(sold_position);
-  }
-
-  else {
-    Serial.print("success ");
-    Serial.println(false);
-  }
-
-
-  //변수 초기화 
-  for (int i = 0; i < 3 ; i++) {  //serial_touch 초기화 
-    serial_touch[i] = 0;
-  }
-  overlap = 0;
-  sensed_position = -1;
-
-  delay(5000);                            
-}
+# 시리얼 포트를 닫기
+push_button_ser.close()
+ultrasonic_ser.close()
